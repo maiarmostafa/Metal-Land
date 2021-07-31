@@ -44,6 +44,8 @@
     cursor: pointer;
 }
 
+.cat-btn{ font-size: 15px; padding-bottom: 5px;}
+
 .active{
     background-color: black;
     border-radius: 8px;
@@ -58,3 +60,19 @@
     font-family: "navFont";
     color:#06273F
 }
+
+
+.notification {
+    text-decoration: none;
+    position: relative;
+}
+  
+.notification .badge {
+    position: absolute;
+    top: -8px;
+    right: 1px;
+    border-radius: 50%;
+    background-color: #BE8029;
+    color: white;
+    font-size: 10px;
+  }

@@ -1,0 +1,60 @@
+.scnd-nav{
+    background-color: #06273F;
+}
+
+.nav-link{
+    color:#06273F;
+    cursor:pointer
+}
+.nav-link:hover{
+    color:black
+}
+
+.scnd-nav a{
+    color: white;
+}
+
+.scnd-nav a:hover{
+    color: lightgray;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(6,39,63, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.input-group input, .input-group button{
+    background-color: white;
+    border: #06273F 1.5px solid;
+}
+ .input-group input{
+     border-radius: 50px 0px 0px 50px;
+ }
+
+ .input-group button{
+     border-radius: 0px 50px 50px 0px;
+ }
+
+.log{
+    display: inline-block;
+}
+.log li{
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: black;
+    border-radius: 8px;
+}
+
+@font-face {
+    font-family: "navFont";
+    src: url(navFont.otf);
+}
+
+*{
+    font-family: "navFont";
+    color:#06273F
+}

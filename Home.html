@@ -122,40 +122,45 @@
     </nav>
 
     <!-- ---------------------Footer--------------------- -->
-    <footer class="position-absolute bottom-0 col-12">
+    <footer class="position-absolute bottom-0">
       <div class="position-relative">
         <!-- --------------------Bacground-------------------- -->
         <img
           src="./Assets/Footer/metal-land-websit-General--Assets16.png"
-          class="img-fluid"
           alt="Footer-img"
+          class="w-100"
         />
 
         <div class="position-absolute top-0 w-100 h-100">
           <div
             class="
-              col-12
+              ms-5
+              row
               d-flex
-              flex-wrap
               align-self-center align-content-center
-              justify-content-evenly
               h-100
+              m-0
+              p-0
             "
           >
             <!-- --------------------Logo-------------------- -->
-            <img
-              src="./Assets/Footer/metal land website -logos-01.svg"
-              alt="Footer-logo"
-              class="col-2 d-lg-inline-block d-md-inline-block d-none"
-            />
+            <div class="col-lg-2 col-md-3 col-12 offset-lg-1 offset-0 mt-3">
+              <img
+                src="./Assets/Footer/metal land website -logos-01.svg"
+                alt="Footer-logo"
+                class="d-lg-inline-block d-md-inline-block d-none"
+              />
 
-            <img
-              src="./Assets/Footer/metal land website -logos-02.svg"
-              alt="Footer-logo"
-              class="col-5 d-inline-block d-md-none d-lg-none"
-            />
+              <img
+                src="./Assets/Footer/metal land website -logos-02.svg"
+                alt="Footer-logo"
+                class="d-inline-block d-md-none d-lg-none"
+              />
+            </div>
             <!-- --------------------First section -------------------- -->
-            <div>
+            <div
+              class="col-lg-3 col-md-5 col-12 offset-lg-1 offset-md-1 offset-0"
+            >
               <p class="Headers">Contact Us</p>
               <ul class="list-unstyled">
                 <li>
@@ -184,7 +189,7 @@
               </ul>
             </div>
             <!-- --------------------Second section -------------------- -->
-            <div>
+            <div class="col-lg-2 col-md-2 col-12">
               <p class="Headers">My Account</p>
               <ul class="list-unstyled">
                 <li class="mb-3">
@@ -208,18 +213,20 @@
               </ul>
             </div>
             <!-- --------------------Third section -------------------- -->
-            <div>
+            <div
+              class="col-lg-2 col-md-4 offset-lg-0 offset-0 offset-md-4 col-12"
+            >
               <p class="Headers">Subscribe To Our Newsletter</p>
               <ul class="list-unstyled">
                 <li>
                   <input
                     type="email"
                     placeholder="Email adress"
-                    class="rounded-custom d-block"
+                    class="form-control rounded-custom d-block w-100 p-1 ps-3"
                   />
                 </li>
                 <li>
-                  <button class="btn btn-primary rounded-custom mt-2">
+                  <button class="btn btn-custom rounded-custom mt-2">
                     Subscribe
                   </button>
                 </li>

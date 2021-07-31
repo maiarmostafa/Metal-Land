@@ -4,3 +4,16 @@
 .rounded-custom {
   border-radius: 4rem;
 }
+.btn-custom {
+  background-color: #1c92f2;
+  color: white;
+  font-size: 0.9rem;
+}
+.width-img {
+  width: 96rem;
+}
+@media (max-width: 991.98px) {
+  .width-img {
+    width: 47rem;
+  }
+}

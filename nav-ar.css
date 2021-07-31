@@ -1,0 +1,12 @@
+/* ----------------Arabic adjustment-------------------- */
+nav{
+    direction: rtl
+}
+
+nav li{
+    direction:ltr
+}
+
+nav .flag{
+    content:url('Assets/navbar/egypt.png')
+}

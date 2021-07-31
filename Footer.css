@@ -14,13 +14,11 @@
   width: 75%;
   margin: auto;
 }
-/* .width-img {
-  width: 96rem;
-} */
+.scroll-img-size {
+  width: 2rem;
+}
+
 @media (max-width: 991.98px) {
-  /* .width-img {
-    width: 47rem;
-  } */
   .rounded-custom {
     border-radius: 0.5rem !important;
   }

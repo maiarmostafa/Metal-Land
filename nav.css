@@ -26,14 +26,9 @@
     background-color: white;
     border: #06273F 1.5px solid;
 }
- .input-group input{
-     border-radius: 50px 0px 0px 50px;
+ .input-group input, .input-group button{
+     border-radius: 50px;
  }
-
- .input-group button{
-     border-radius: 0px 50px 50px 0px;
- }
-
 .log{
     display: inline-block;
 }
@@ -76,3 +71,7 @@
     color: white;
     font-size: 10px;
   }
+
+  nav .brand-logo{
+    text-align: left;
+}

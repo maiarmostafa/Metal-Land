@@ -10,3 +10,14 @@ nav li{
 nav .flag{
     content:url('Assets/navbar/egypt.png');
 }
+
+nav .brand-logo{
+    text-align: right;
+}
+
+
+.dropdown-menu{
+    --bs-position: end !important;
+    right: 0  !important;
+    left: auto  !important;
+}

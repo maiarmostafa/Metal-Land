@@ -16,7 +16,10 @@
   </head>
   <body>
     <!-- ----------------------NAV BAR---------------------- -->
-    <nav class="navbar navbar-expand-lg position-sticky top-0 text-center">
+    <nav
+      class="navbar navbar-expand-lg position-sticky top-0 text-center"
+      style="z-index: 1"
+    >
       <a class="navbar-brand text-center d-lg-none d-block" href="Home.html"
         ><img src="./Assets/navbar/metal-land-websit-General--Assets1.png"
       /></a>
@@ -122,7 +125,7 @@
     </nav>
 
     <!-- ---------------------Footer--------------------- -->
-    <footer class="position-absolute bottom-0">
+    <footer class="position-absolute bottom-0" style="z-index: 0">
       <div class="position-relative">
         <!-- --------------------Bacground-------------------- -->
         <img
@@ -144,7 +147,7 @@
             "
           >
             <!-- --------------------Logo-------------------- -->
-            <div class="col-lg-2 col-md-3 col-12 offset-lg-1 offset-0 mt-3">
+            <div class="col-lg-2 col-md-3 col-4 offset-lg-1 offset-0 mt-3">
               <img
                 src="./Assets/Footer/metal land website -logos-01.svg"
                 alt="Footer-logo"
@@ -159,7 +162,11 @@
             </div>
             <!-- --------------------First section -------------------- -->
             <div
-              class="col-lg-3 col-md-5 col-12 offset-lg-1 offset-md-1 offset-0"
+              class="
+                col-lg-3 col-md-5 col-6
+                offset-lg-1 offset-md-1
+                order-lg-0 order-2
+              "
             >
               <p class="Headers">Contact Us</p>
               <ul class="list-unstyled">
@@ -189,7 +196,7 @@
               </ul>
             </div>
             <!-- --------------------Second section -------------------- -->
-            <div class="col-lg-2 col-md-2 col-12">
+            <div class="col-lg-2 col-md-2 col-6 order-lg-0 order-md-0 order-3">
               <p class="Headers">My Account</p>
               <ul class="list-unstyled">
                 <li class="mb-3">
@@ -214,23 +221,40 @@
             </div>
             <!-- --------------------Third section -------------------- -->
             <div
-              class="col-lg-2 col-md-4 offset-lg-0 offset-0 offset-md-4 col-12"
+              class="
+                col-lg-2 col-md-12 col-12
+                order-lg-0 order-md-first order-lg-0 order-1
+                text-md-center text-start
+              "
             >
-              <p class="Headers">Subscribe To Our Newsletter</p>
-              <ul class="list-unstyled">
-                <li>
+              <p class="Headers d-lg-block d-block d-md-inline-block">
+                Subscribe To Our Newsletter
+              </p>
+              <ul class="list-unstyled d-lg-block d-inline-block">
+                <li class="d-lg-block d-md-inline-block ms-md-3 ms-0">
                   <input
                     type="email"
                     placeholder="Email adress"
-                    class="form-control rounded-custom d-block w-100 p-1 ps-3"
+                    class="
+                      form-control
+                      rounded-custom
+                      d-block
+                      w-100
+                      p-1
+                      ps-3
+                      me-5 me-md-5 me-lg-0
+                    "
                   />
                 </li>
-                <li>
-                  <button class="btn btn-custom rounded-custom mt-2">
+                <li class="d-lg-block d-md-inline-block ms-md-3 ms-0">
+                  <button
+                    class="btn btn-custom rounded-custom mt-lg-2 mt-md-0 mt-2"
+                  >
                     Subscribe
                   </button>
                 </li>
               </ul>
+              <hr class="hr-color d-md-block d-lg-none d-none mb-3" />
             </div>
           </div>
         </div>

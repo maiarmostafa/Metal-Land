@@ -14,14 +14,20 @@
   width: 75%;
   margin: auto;
 }
-.width-img {
+/* .width-img {
   width: 96rem;
-}
+} */
 @media (max-width: 991.98px) {
-  .width-img {
+  /* .width-img {
     width: 47rem;
-  }
+  } */
   .rounded-custom {
     border-radius: 0.5rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .img-size-xs {
+    width: 17em !important;
   }
 }

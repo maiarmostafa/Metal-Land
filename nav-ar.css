@@ -1,12 +1,12 @@
 /* ----------------Arabic adjustment-------------------- */
 nav{
-    direction: rtl
+    direction: rtl;
 }
 
 nav li{
-    direction:ltr
+    direction:ltr;
 }
 
 nav .flag{
-    content:url('Assets/navbar/egypt.png')
+    content:url('Assets/navbar/egypt.png');
 }

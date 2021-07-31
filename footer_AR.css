@@ -1,0 +1,12 @@
+footer {
+  direction: rtl;
+}
+ul {
+  padding-right: 0px !important;
+}
+#AR-image {
+  margin-right: 4rem;
+}
+#btn-AR {
+  float: right;
+}

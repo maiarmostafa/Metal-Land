@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="nav.css" />
     <link rel="stylesheet" href="./Footer.css" />
+    <!-- <link rel="stylesheet" href="./Footer_AR.css" /> -->
     <title>Home</title>
   </head>
   <body>
@@ -153,7 +154,7 @@
 
       <div
         class="
-          ms-4
+          ms-md-4 ms-sm-5 ms-3
           row
           d-flex
           align-self-center align-content-center
@@ -163,7 +164,16 @@
         "
       >
         <!-- --------------------Logo-------------------- -->
-        <div class="col-lg-2 col-md-3 col-7 offset-lg-1 offset-0 mt-3">
+        <div
+          class="
+            col-lg-2 col-md-3 col-sm-7 col-10
+            offset-lg-1 offset-0
+            mt-3
+            mx-md-5 mx-sm-0
+          "
+          id="AR-image"
+          style="z-index: 1"
+        >
           <img
             src="./Assets/Footer/metal land website -logos-01.svg"
             alt="Footer-logo"
@@ -173,13 +183,17 @@
           <img
             src="./Assets/Footer/metal land website -logos-02.svg"
             alt="Footer-logo"
-            class="d-inline-block d-md-none d-lg-none mb-4 img-size-xs"
+            class="
+              d-inline-block d-md-none d-lg-none
+              mb-4
+              img-size-xs img-fluid
+            "
           />
         </div>
         <!-- --------------------First section -------------------- -->
         <div
           class="
-            col-lg-3 col-md-5 col-sm-8 col-12
+            col-lg-3 col-md-4 col-sm-7 col-12
             offset-lg-1 offset-md-1
             order-lg-0 order-2
             my-lg-0 my-md-0 my-sm-0 my-3
@@ -215,7 +229,7 @@
         <!-- --------------------Second section -------------------- -->
         <div
           class="
-            col-lg-2 col-md-2 col-sm-4 col-12
+            col-lg-2 col-md-2 col-sm-5 col-12
             order-lg-0 order-md-0 order-3
           "
         >
@@ -266,6 +280,7 @@
             <li class="d-lg-block d-md-inline-block ms-md-3 ms-lg-0 ms-0">
               <button
                 class="btn btn-custom rounded-custom mt-lg-2 mt-md-0 mt-2"
+                id="btn-AR"
               >
                 Subscribe
               </button>

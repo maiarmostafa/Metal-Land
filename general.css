@@ -1,23 +1,30 @@
 @font-face {
-    font-family: 'title';
-    src: url(titles.otf);
+  font-family: "title";
+  src: url(titles.otf);
 }
 
 @font-face {
-    font-family: 'regular';
-    src: url(regular.otf);
+  font-family: "regular";
+  src: url(regular.otf);
 }
 
-.title{
-    font-family: 'title';
+.title {
+  font-family: "title";
 }
 
 @font-face {
-    font-family: "light";
-    src: url(light.otf);
+  font-family: "light";
+  src: url(light.otf);
 }
 
-nav, footer{
-    font-family: "light";
+nav,
+footer {
+  font-family: "light";
 }
-nav{ color:#06273F }
+nav {
+  color: #06273f;
+}
+* {
+  color: #06273f;
+  font-family: "light";
+}

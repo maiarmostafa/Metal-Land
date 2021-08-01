@@ -1,0 +1,53 @@
+.heading{
+    font-family: 'regular';
+}
+
+*{
+    font-family: 'light';
+}
+
+.btn-style{
+    border: none;
+    border-radius: 4rem;
+    font-size:0.9rem;
+    padding:0.2rem 0.6rem 0.4rem 0.6rem;
+    color:white;
+}
+
+.profile-btn{
+    background-color: #BE8029;
+}
+
+.password-btn{
+    background-color:#1c92f2;
+}
+
+.modal-btn{
+    background-color:#28a745;
+}
+
+.btn-close{
+    color:#BE8029 !important;
+}
+
+.cam{
+    bottom:0.7%;
+    right: 18%
+}
+
+.profile-img{
+    margin-top: 2.5rem;
+}
+
+.user-info p{
+    margin-bottom: 0.7rem ;
+}
+
+.modal-backdrop {
+    background-color: transparent;
+ }
+
+ .modal-content {
+     border:none;
+     box-shadow: 0 0px 3px 0 rgb(0 0 0 / 0%), 0 0px 9px 0 rgb(0 0 0 / 19%);
+    }

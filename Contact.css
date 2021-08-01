@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "title";
+  src: url(titles.otf);
+}
+#Heading {
+  font-family: "title";
+}
+#subheading {
+  font-family: "navFont";
+  color: #be8029;
+  font-size: 1.3rem;
+}
+.input-color {
+  background-color: #eeefef;
+  border-radius: 3rem;
+  border: none;
+}
+.input-color:focus {
+  background-color: #eeefef;
+  outline: none !important;
+}

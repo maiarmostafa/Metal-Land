@@ -46,17 +46,6 @@
     border-radius: 8px;
 }
 
-@font-face {
-    font-family: "navFont";
-    src: url(navFont.otf);
-}
-
-*{
-    font-family: "navFont";
-    color:#06273F
-}
-
-
 .notification {
     text-decoration: none;
     position: relative;

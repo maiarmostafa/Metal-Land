@@ -28,3 +28,14 @@ nav {
   color: #06273f;
   font-family: "light";
 }
+
+.input-color {
+  background-color: #eeefef;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.2rem 1.2rem;
+}
+.input-color:focus {
+  background-color: #eeefef;
+  outline: none !important;
+}

@@ -1,33 +1,34 @@
 @font-face {
-    font-family: 'title';
-    src: url(titles.otf);
+  font-family: "title";
+  src: url(titles.otf);
 }
 
 @font-face {
-    font-family: 'regular';
-    src: url(regular.otf);
+  font-family: "regular";
+  src: url(regular.otf);
 }
 
-.title{
-    font-family: 'title';
+.title {
+  font-family: "title";
 }
 
 @font-face {
-    font-family: "light";
-    src: url(light.otf);
+  font-family: "light";
+  src: url(light.otf);
 }
 
-nav, footer{
-    font-family: "light";
+nav,
+footer {
+  font-family: "light";
 }
 
 .input-color {
-    background-color: #eeefef;
-    border-radius: 1rem;
-    border: none;
-    padding:0.2rem 1.2rem;
-  }
-  .input-color:focus {
-    background-color: #eeefef;
-    outline: none !important;
-  }
+  background-color: #eeefef;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.2rem 1.2rem;
+}
+.input-color:focus {
+  background-color: #eeefef;
+  outline: none !important;
+}

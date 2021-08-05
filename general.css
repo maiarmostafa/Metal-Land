@@ -21,6 +21,13 @@ nav,
 footer {
   font-family: "light";
 }
+nav {
+  color: #06273f;
+}
+* {
+  color: #06273f;
+  font-family: "light";
+}
 
 .input-color {
   background-color: #eeefef;
